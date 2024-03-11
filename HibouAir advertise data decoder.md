@@ -34,7 +34,7 @@ example of advertised data 0201061AFF5B0705030581CA7D084127D300AE01FE05000009002
 ## JavaScript
 
 The following function decodes the advertised data into json format.
-example of advertised data 0201061AFF5B0705030581CA7D084127EBFFAE01FE05000009002100000000
+example of advertised data 0201061AFF5B0705030581CA7D084127D300AE01FE05000009002100000000
 
     const  advDataDecode  = (data, id) => {
     let  pos  =  data.indexOf('5B070');
