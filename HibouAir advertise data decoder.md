@@ -36,7 +36,7 @@ example of advertised data 0201061AFF5B0705030581CA7D084127D300AE01FE05000009002
 The following function decodes the advertised data into json format.
 example of advertised data 0201061AFF5B0705030581CA7D084127D300AE01FE05000009002100000000
 
-    const  advDataDecode  = (data, id) => {
+    const  advDataDecode  = (data) => {
     let  pos  =  data.indexOf('5B070');
     let  tempHex  =  parseInt('0x'  +data.substr(pos  +  22, 4).match(/../g).reverse().join(''));
     if (tempHex  >  1000) tempHex  = (tempHex  - (65535  +  1)) /  10;
